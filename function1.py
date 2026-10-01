@@ -1,9 +1,19 @@
 
+# import numpy as np
+# arr = np.zeros(3)
+# print(arr)
+# print(arr.dtype)
+
+# arr1=np.zeros(3,dtype=int)
+# print(arr1)
+# print(arr1.dtype)
+
 import numpy as np
-arr = np.zeros(3)
+arr = np.ones(3)
 print(arr)
 print(arr.dtype)
 
-arr1=np.zeros(3,dtype=int)
+arr1=np.ones(3,dtype=int)
 print(arr1)
 print(arr1.dtype)
+
