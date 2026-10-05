@@ -35,32 +35,42 @@
 
 
 #eye
+# import numpy as np
+# ar =np.eye(3)
+# print(ar)
+# print(ar.dtype)
+
+
+# import numpy as np
+# arr=np.eye(3,5,dtype=int)
+# print(arr)
+# print(arr.dtype)
+
+# #diag
+# import numpy as np
+# arr1 =np.diag([1,2,3,4,67,4,89,3,3])
+# arr2 = np.unique(arr1)
+# print(arr1)
+# print(arr1)
+# print("unique number:",arr2)
+# print("count unique number:", arr2)
+
+
+# import numpy as np
+# a = np.array([[1,2,3],[4,5,6]])
+
+# # print(a.size)
+# import numpy as np
+# a = np.array([1, 2, 3])
+
+# print(a.itemsize)
+
 import numpy as np
-ar =np.eye(3)
-print(ar)
-print(ar.dtype)
-
-
-import numpy as np
-arr=np.eye(3,5,dtype=int)
-print(arr)
-print(arr.dtype)
-
-#diag
-import numpy as np
-arr1 =np.diag([1,2,3,4,67,4,89,3,3])
-arr2 = np.unique(arr1)
-print(arr1)
-print(arr1)
-print("unique number:",arr2)
-print("count unique number:", arr2)
-
-
-
-
-
-
-
+arr = np.random.randint(1,10,5)
+print("original array:",arr)
+max = arr.max()
+print("maximum value position",arr.argmin())
+print("maximum :" ,max)
 
 
 
