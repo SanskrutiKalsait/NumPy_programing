@@ -65,15 +65,51 @@
 
 # print(a.itemsize)
 
-import numpy as np
-arr = np.random.randint(1,10,5)
-print("original array:",arr)
-max = arr.max()
-print("maximum value position",arr.argmin())
-print("maximum :" ,max)
+# import numpy as np
+# arr = np.random.randint(1,10,5)
+# print("original array:",arr)
+# max = arr.max()
+# print("maximum value position",arr.argmin())
+# print("maximum :" ,max)
 
 
 
+# import numpy as np
 
+# arr = np.array([10, 20, 30, 40, 50])
+
+# print(arr[:-1])
+
+# import numpy as np
+# a = np.array([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15])
+
+# largest = np.max(a)
+# print(largest)
+
+# import numpy as np 
+# a = np.array([1,2,3,4])
+# b = np.array([5,6,7,8])
+# c = np.hstack((a,b))
+# print("horizantal:",c)
+
+# a = np.array([1,2,3,4])
+# b = np.array([5,6,7,8])
+# c = np.vstack((a,b))
+# print("vetical:",c)
+# arr = np.random.randint(1,40,36)
+# b=np.resize(arr,[4,4])
+# c = b[(b>20)&(b<30)]
+# print("c:",c)
+
+
+# import numpy as np
+# a =np.array([1,2,3,4,5,6])
+# b =np.array([7,8,9,10,11,12])
+# c =np.vstack((a,b))
+# print("vertical :",c)
+# arr = np.random.randint(1,40,55)
+# b=np.resize(arr,[4,4])
+# c =b[(b>20)&(b<30)]
+# print("c:",c)
 
 
